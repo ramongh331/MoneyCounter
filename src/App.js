@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <main>
-        <section className="bg-yellow-50 w-[30rem] h-screen flex flex-col mx-auto">
+        <section className="w-[30rem] h-screen flex flex-col mx-auto">
           <section className="w-full text-8xl text-center">${total.toFixed(2)}</section>
           <section className="w-full flex justify-center">
             <button className="w-full text-white bg-orange-700 text-3xl p-3">
@@ -100,8 +100,8 @@ function App() {
             </section>
           </section>
           <section className="flex w-full h-[6rem]">
-            <button className="w-full bg-yellow-50">Counter</button>
-            <button className="w-full bg-yellow-50">Calculator</button>
+            <button className="w-full">Counter</button>
+            <button className="w-full">Calculator</button>
           </section>
         </section>
       </main>
