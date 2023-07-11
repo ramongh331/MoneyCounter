@@ -42,19 +42,19 @@ function App() {
   return (
     <>
       <main>
-        <section className="bg-yellow-50 w-[40rem] h-screen flex flex-col mx-auto">
+        <section className="bg-yellow-50 w-[30rem] h-screen flex flex-col mx-auto">
           <section className="w-full text-8xl text-center">${total.toFixed(2)}</section>
           <section className="w-full flex justify-center">
-            <button className="w-full text-white bg-orange-700 text-3xl p-4">
+            <button className="w-full text-white bg-orange-700 text-3xl p-3">
               Add
             </button>
-            <button className="w-full text-white bg-orange-700 text-3xl p-4">
+            <button className="w-full text-white bg-orange-700 text-3xl p-3">
               Remove
             </button>
-            <button className="w-full text-white bg-orange-700 text-3xl p-4">
+            <button className="w-full text-white bg-orange-700 text-3xl p-3">
               Coins/Bills
             </button>
-            <button className="w-full text-white bg-red-500 text-3xl p-4" onClick={handleClearTotal}>
+            <button className="w-full text-white bg-red-500 text-3xl p-3" onClick={handleClearTotal}>
               Clear
             </button>
           </section>
